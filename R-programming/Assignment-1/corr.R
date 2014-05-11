@@ -11,12 +11,7 @@ corr <- function(directory,threshold="0"){
                 else{
                         cors <- NULL
                 }
-                #                 print(result)
                 result <- append(result,cors)
         }
         print(result)
 }
-
-#  cr <- corr("specdata")
-#  length(cr)
-#  summary(cr)
